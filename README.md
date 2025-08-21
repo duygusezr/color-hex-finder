@@ -12,17 +12,17 @@ Bu uygulama, JPG formatındaki resimlerdeki renkleri hex kodları ile bulmanız�
 
 ## 🚀 Kurulum
 
-### 1. Python Kurulumu
+### 1. Projeyi İndirin
+```bash
+git clone https://github.com/kullaniciadi/hex-color-picker.git
+cd hex-color-picker
+```
+
+### 2. Python Kurulumu
 - Python 3.7 veya üstü yükleyin
 - [Python.org](https://python.org) adresinden indirebilirsiniz
 
-### 2. Gerekli Paketleri Yükleyin
-Terminal/PowerShell'de proje klasörüne gidin:
-```bash
-cd C:\Users\sezer\OneDrive\Masaüstü\hex
-```
-
-Paketleri yükleyin:
+### 3. Gerekli Paketleri Yükleyin
 ```bash
 pip install -r requirements.txt
 ```
@@ -35,7 +35,7 @@ python color_picker.py
 ```
 
 ### 2. Resim Seçimi
-- Uygulama otomatik olarak `jeoloji_harita.jpg` dosyasını bulur
+- Uygulama otomatik olarak `jeoloji_harita.jpg` dosyasını bulur (varsa)
 - "Bu resmi kullanmak istiyor musunuz? (e/h):" sorusuna "e" yazın
 - Veya farklı bir resim yolu girebilirsiniz
 
@@ -61,7 +61,7 @@ python color_picker.py
 hex/
 ├── color_picker.py      # Ana uygulama
 ├── requirements.txt     # Python bağımlılıkları
-├── jeoloji_harita.jpg  # Jeoloji haritası
+├── jeoloji_harita.jpg  # Jeoloji haritası (örnek resim)
 └── README.md           # Bu dosya
 ```
 
@@ -92,11 +92,11 @@ pip install -r requirements.txt
 
 ## 🎨 Örnek Kullanım
 
-1. Terminal açın
-2. Proje klasörüne gidin: `cd C:\Users\sezer\OneDrive\Masaüstü\hex`
+1. Projeyi indirin: `git clone https://github.com/kullaniciadi/hex-color-picker.git`
+2. Proje klasörüne gidin: `cd hex-color-picker`
 3. Paketleri yükleyin: `pip install -r requirements.txt`
 4. Uygulamayı çalıştırın: `python color_picker.py`
-5. "e" yazarak varsayılan resmi kullanın
+5. "e" yazarak varsayılan resmi kullanın (varsa)
 6. Fare ile resim üzerinde gezinin
 7. Hex kodlarını görün
 8. ESC ile çıkın
